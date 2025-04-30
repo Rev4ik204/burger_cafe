@@ -145,13 +145,13 @@ body {
 .main-text {
   font-size: 24px;
   font-style: normal;
-  font-weight:600;
-  line-height:normal;
-  width:608px ;
+  font-weight: 600;
+  line-height: normal;
+  width: 608px;
   margin-bottom: 56px;
 }
 
-.main-image{
+.main-image {
   position: absolute;
   top: -123px;
   left: 210px;
@@ -160,4 +160,32 @@ body {
 .main-action {
 }
 .button {
+}
+/* -------WHY--------- */
+.why {
+  background-image: url("./images/whybg-min.png");
+
+  background-position: top center;
+  background-size: initial;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding-bottom: 180px;
+}
+.why .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.why-list {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+}
+.why-item {
+}
+.why-item-image {
+}
+.why-item-title {
+}
+.why-item-text {
 }
