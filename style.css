@@ -154,7 +154,7 @@ body {
 .main-image{
   position: absolute;
   top: -123px;
-  left: calc(100%-991px);
+  left: 210px;
 }
 
 .main-action {
