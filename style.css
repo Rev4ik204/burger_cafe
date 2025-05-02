@@ -181,11 +181,48 @@ body {
   gap: 100px;
   list-style: none;
 }
+.why-title {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
 .why-item {
+  box-sizing: border-box;
+  width: 312px;
+  height: 287px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
 }
 .why-item-image {
+  width: 100px;
+  height: 100px;
 }
 .why-item-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .why-item-text {
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
 }
+/* -------BURGERS--------- */
+
