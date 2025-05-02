@@ -171,7 +171,8 @@ body {
   overflow: hidden;
   padding-bottom: 180px;
 }
-.why .container {
+.why .container,
+.burgers .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -181,7 +182,8 @@ body {
   gap: 100px;
   list-style: none;
 }
-.why-title {
+.why-title,
+.burgers-title {
   color: #ffffff;
   text-align: center;
   font-family: "Merriweather", sans-serif;
@@ -226,3 +228,48 @@ body {
 }
 /* -------BURGERS--------- */
 
+.burgers {
+  background-image: url("./images/burgers_bg-min.png");
+
+  background-position: top center;
+  background-size: initial;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding-bottom: 180px;
+}
+
+.burgers-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.burgers-item {
+  box-sizing: border-box;
+  width: 384px;
+  height: 564px;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #353535;
+  background: #211a16;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+}
+.burgers-item-image {
+  width: 290px;
+  height: 305px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.burgers-item-title {
+}
+.burgers-item-text {
+}
+.burgers-item-price {
+}
+.burgers-item-weight {
+}
+.button {
+}
