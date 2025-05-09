@@ -345,19 +345,33 @@
         </ul>
       </div>
     </section>
-    <section>
-      <h2>оформление заказа</h2>
-      <img src="./images/food-delivery-min.png" alt="food delivery" />
-      <form action="submit">
-        <p>
-          Заполните все данные и наш менеджер свяжется с вами для подтверждения
-          заказа
-        </p>
-        <input type="text" placeholder="Ваш заказ" />
-        <input type="text" placeholder="Ваше имя" />
-        <input type="text" placeholder="Ваш телефон" />
-        <button type="submit" class="button">Оформить заказ</button>
-      </form>
+    <section class="order">
+      <div class="container">
+        <h2 class="order-title">оформление заказа</h2>
+        <img
+          src="./images/food-delivery-min.png"
+          alt="food delivery"
+          class="order-image"
+        />
+        <form action="" class="oder-form">
+          <p class="order-form-text">
+            Заполните все данные и наш менеджер свяжется с вами для
+            подтверждения заказа
+          </p>
+          <div class="order-form-inputs">
+            <div class="order-form-input">
+              <input type="text" placeholder="Ваш заказ" />
+            </div>
+            <div class="order-form-input">
+              <input type="text" placeholder="Ваше имя" />
+            </div>
+            <div class="order-form-input">
+              <input type="text" placeholder="Ваш телефон" />
+            </div>
+          </div>
+          <button type="submit" class="button order-button">Оформить заказ</button>
+        </form>
+      </div>
     </section>
 
     <footer class="footer">
