@@ -264,12 +264,43 @@ body {
   margin-right: auto;
 }
 .burgers-item-title {
+  
+font-weight: 600;
+font-size: 24px;
+color:#ffffff;
 }
 .burgers-item-text {
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+color: #ffffff;
+}
+.wrap{
+  width: 324px;
+height: 82px;
+display: flex;
+justify-content: space-between;
+}
+.wrap1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .burgers-item-price {
+
+font-weight: 600;
+font-size: 32px;
+color: #ffffff;
 }
 .burgers-item-weight {
+font-weight: 300;
+font-size: 16px;
+color: #757575
 }
-.button {
+.burgers .button {
+  border-radius: 8px;
+padding: 19px 50px;
+width: 182px;
+height: 62px;
 }
+.button-image{fill: #191411;}
