@@ -172,7 +172,8 @@ body {
   padding-bottom: 180px;
 }
 .why .container,
-.burgers .container {
+.burgers .container,
+.order .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -183,7 +184,8 @@ body {
   list-style: none;
 }
 .why-title,
-.burgers-title {
+.burgers-title,
+.order-title {
   color: #ffffff;
   text-align: center;
   font-family: "Merriweather", sans-serif;
@@ -264,60 +266,107 @@ body {
   margin-right: auto;
 }
 .burgers-item-title {
-  
-font-weight: 600;
-font-size: 24px;
-color:#ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
 }
 .burgers-item-text {
-font-weight: 600;
-font-size: 16px;
-line-height: 140%;
-color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
 }
-.wrap{
+.wrap {
   width: 324px;
-height: 82px;
-display: flex;
-justify-content: space-between;
+  height: 82px;
+  display: flex;
+  justify-content: space-between;
 }
-.wrap1{
+.wrap1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .burgers-item-price {
-
-font-weight: 600;
-font-size: 32px;
-color: #ffffff;
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffff;
 }
 .burgers-item-weight {
-font-weight: 300;
-font-size: 16px;
-color: #757575
+  font-weight: 300;
+  font-size: 16px;
+  color: #757575;
 }
 .burgers .button {
   border-radius: 8px;
-padding: 19px 50px;
-width: 182px;
-height: 62px;
+  padding: 19px 50px;
+  width: 182px;
+  height: 62px;
 }
-.button-image{fill: #191411;}
+.button-image {
+  fill: #191411;
+}
 
 /* -------ORDER--------- */
+.order {
+  background-image: url("./images/order_bg-min.png");
 
+  background-position: top center;
+  /* background-size: initial; */
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding-bottom: 180px;
+}
+.order .container {
+  position: relative;
+}
+.order-image {
+  position: absolute;
+  top: 0;
+  right: 464px;
+  z-index: -1;
+}
+.order-form {
+  box-sizing: border-box;
+  width: 424px;
+  height: 555px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #353535;
+  background: #211a16;
+  padding: 60px 40px;
+  margin-left: 674px;
+}
+.order-form-text {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.order-form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.order-form-input {
+}
+.button {
+}
+.order-button {
+}
 /* -------FOOTER--------- */
-.footer {padding: 60px 0;
+.footer {
+  padding: 60px 0;
 }
-.footer .container {display: flex ;justify-content: space-between;
+.footer .container {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-
 }
-
 
 .footer-text {
   font-weight: 600;
   font-size: 16px;
-  color:#ffffff;
+  color: #ffffff;
 }
